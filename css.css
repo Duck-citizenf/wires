@@ -1,0 +1,270 @@
+@font-face{
+    font-family: "TTNorms";
+    src:url(TT-Norms-Fonts/TTNorms-Regular.otf);
+}
+body{
+    font-family: "TTNorms";
+    margin: 0px;
+    
+}
+.relative{
+    position: relative;
+}
+.hidden{
+    overflow: hidden;
+}
+.flex{
+    display: flex;
+}
+.space-between{
+    justify-content: space-between;
+}
+.gray{
+    background: linear-gradient(177.19deg, rgba(236, 236, 236, 0.8) 4.65%, rgba(235, 235, 235, 0.6) 44.2%, rgba(235, 235, 235, 0) 98.48%), url(bg.png);
+}
+.main-container{
+    margin: 0 auto;
+    max-width: 1240px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.stomp{
+    padding-left: 7.37px;
+    font-weight: 400;
+    font-size: 18px;
+}
+.br-4{
+    border-radius: 4px;
+}
+.bg-white{
+    background-color: #FFFFFF;
+}
+.warp{
+    flex-wrap: wrap;
+}
+.bg-red{
+    display: inline-block;
+    font-weight: 400;
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+    background-color:#E31E25;
+    color: white;
+}
+.button{
+    display: inline-block;
+    font-weight: 400;
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.button{
+    display: inline-block;
+    font-weight: 400;
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+    background-color: white;
+}
+.button-wide{
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+.button-red{
+    font-weight: 500;
+    font-size: 14px;
+    display: inline-block;
+    color:#E31E25;
+    border: 2px solid #E31E25;
+    padding: 20px 30px;
+    cursor: pointer;
+}
+.send{
+    padding: 15px 30px;
+}
+.pb-all{
+    padding-bottom: 20px;
+}
+.pb-40{
+    padding-bottom: 40px;
+}
+.pt-30{
+    padding-top: 30px;
+}
+.mw-1044{
+    max-width: 1044px;
+}
+.box{
+    position: absolute;
+    right: 130px;
+    top: 242px;
+}
+.name{
+    font-weight: 700;
+    font-size: 28px;
+}
+.pb{
+    margin-bottom: 30px;
+    margin-top: 80px;
+}
+.bg-yellow{
+    background-color:#FEC022;
+    display: inline-block;
+    padding: 4px 6px;
+    border-radius: 4px;
+    margin-left: 20px;
+    position: relative;
+}
+.hit{
+    padding-left: 31px;
+    font-weight: 500;
+    font-size: 12px;
+    color:white;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    line-height: 150%;
+}
+.light{
+    position:absolute;
+    left: 10%;
+    top: 20%;
+}
+.button-red:hover{
+    background-color:#E31E25;
+    color: #FFFFFF;
+}
+.button-red:hover > a{
+    color:greenyellow;
+}
+.button:hover{
+    background: #FCE8E9;
+    color:initial;
+}
+.order{
+    background: #F1F2F2;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    padding-left: 30px;
+    padding-top: 34px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+.input{
+    width: 349px;
+    padding-left: 15px;
+    background: #F1F2F2;
+    border: 1px solid #99A2AD;
+    border-radius: 4px;
+    height: 50px;
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+.p-30{
+    padding: 30px;
+}
+.mb-30{
+    margin-bottom: 30px;
+}
+.mb-36{
+    margin-bottom: 36px;
+}
+.private_data{
+    font-weight: 400;
+    font-size: 14px;
+    color: #898989;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.check{
+    border: 1px solid #898989;
+    border-radius: 4px;
+    background: #F1F2F2;
+    width: 20px;
+    height: 20px;
+}
+/* Popup box BEGIN */
+#overlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background: #999;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    z-index: 100;
+}
+
+#popup {
+    display: none;
+    position: absolute;
+    top: 14%;
+    left: 50%;
+    margin-left: -214px;
+    background: #fff;
+    z-index: 200;
+    width: 430px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+#popupclose {
+    float: right;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#button {
+    cursor: pointer;
+}
+/* Popup box BEGIN */
+@media screen and (max-width: 768px) and (min-width:360px) {
+    body{
+        overflow-x: hidden;
+        position: fixed;
+    }
+}
+@media screen and (max-width: 768px) {
+    .box{
+        right:-189px;
+        top:331px;
+        height: 220px;
+    }
+    .pb-40{
+        padding-bottom: 85px;
+    }
+    .electrotype{
+        padding-right: 56px;
+    }
+}
+@media screen and (max-width: 360px) {
+    .pt-30{
+        padding-top: 20px;
+    }
+    .pt-first{
+        padding-top: 150px;
+    }
+    .box{
+        top:191px;
+        left:20px;
+        height: 110px;
+    }
+    .bg-yellow{
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .pb{
+        margin-bottom: 20px;
+    }
+    .pb-40{
+        padding-bottom: 30px;
+    }
+}
